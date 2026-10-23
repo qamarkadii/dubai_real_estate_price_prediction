@@ -1,0 +1,11 @@
+# Versions tested together with dubai_price_model.keras and preprocessor.joblib.
+# scikit-learn MUST be 1.6.1 (the preprocessor was saved with it; newer versions cannot load it).
+# keras 3.13.2 is the version the model was saved with.
+tensorflow==2.21.0
+keras==3.13.2
+scikit-learn==1.6.1
+dill
+numpy
+pandas
+joblib
+flask

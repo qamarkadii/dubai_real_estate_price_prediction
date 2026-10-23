@@ -1,0 +1,21 @@
+# API keys - never commit
+maps_key.txt
+carto_key.txt
+*.key
+.env
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local backups
+*.backup*
+* - Copy/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
